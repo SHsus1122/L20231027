@@ -13,9 +13,10 @@ int main() {
 		list[i] = i + 1;
 	}
 
+
 	for (int i = 0; i < 4; i++)	
 	{
-		int a = rand() % 52 + 0;
+		int a = rand() % 51 + 0;
 		if (list[a] != 0)
 		{
 			cout << list[a] << endl;
@@ -23,6 +24,7 @@ int main() {
 		}
 		else
 		{
+			i--;
 			continue;
 		}
 	}
